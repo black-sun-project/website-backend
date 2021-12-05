@@ -1,0 +1,17 @@
+{
+    "require": {
+        "mezon/router": "^1.3",
+        "twig/twig": "3.3.3",
+        "lasserafn/php-initial-avatar-generator": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib/",
+            "Lib\\Helpers\\": "lib/helpers",
+            "Lib\\DB\\": "lib/db",
+            "App\\Controllers\\": "app/controllers",
+            "App\\Controllers\\Api\\": "app/controllers/api",
+            "App\\Controllers\\Auth\\": "app/controllers/auth"
+        }
+    }
+}
